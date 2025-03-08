@@ -1,0 +1,65 @@
+@import "colors.scss";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(/images/banner4.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 0% 6%;
+    padding-top: 0%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+nav img{
+    width: 15rem;
+}
+
+.nav-links ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 3.5rem 2rem;
+    position: relative;
+
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: var(--white-color);
+    /* font-size: 13px; */
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: var(--secondary-color);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
