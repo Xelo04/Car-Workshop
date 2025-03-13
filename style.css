@@ -13,6 +13,12 @@
     color: var(--white-color);
 }
 
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    padding-top: 3.5rem;
+    padding-bottom: 2rem;
+}
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Header ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .header{
     min-height: 100vh;
@@ -30,8 +36,6 @@
     left: 0;
     width: 100%;
     height: 100%;
-    /* background: rgba(0, 0, 0, 0.5); */
-    /* z-index: 1; */
 }
 
 /*~~~~~~~~~~ Navigation Bar ~~~~~~~~~~*/
@@ -95,7 +99,7 @@ nav {
     padding-top: 4rem;
 }
 
-.text-box h1 {
+.text-box h2 {
     font-size: 5rem;
     font-weight: 700;
     line-height: 1.2;
@@ -106,9 +110,6 @@ nav {
 }
 
 /*~~~~~~~~~~ Visit Us Button ~~~~~~~~~~*/
-
-/* From Uiverse.io by satyamchaudharydev */ 
-/* === removing default button style ===*/
 .header .button {
     margin: 0;
     height: auto;
@@ -118,7 +119,6 @@ nav {
     cursor: pointer;
 }
   
-  /* button styling */
 .header .button {
     --border-right: 6px;
     --text-stroke-color: rgba(255,255,255,0.6);
@@ -133,7 +133,7 @@ nav {
     color: transparent;
     -webkit-text-stroke: 1px var(--text-stroke-color);
 }
-  /* this is the text, when you hover on button */
+
 .header .hover-text {
     position: absolute;
     box-sizing: border-box;
@@ -146,7 +146,7 @@ nav {
     transition: 0.5s;
     -webkit-text-stroke: 1px var(--secondary-color);
 }
-  /* hover */
+
 .header .button:hover .hover-text {
     width: 100%;
 }
@@ -172,11 +172,6 @@ nav {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 3.5rem;
-}
-.services h1 {
-    font-size: 3rem;
-    font-weight: 700;
 }
 
 .services p {
@@ -184,7 +179,6 @@ nav {
     font-size: 1.5rem;
 }
 
-/* From Uiverse.io by kamehame-ha */
 .cards {
     display: flex;
     flex-direction: column;
@@ -200,7 +194,6 @@ nav {
     transform: scale(0.9, 0.9);
 }
 
-/* From Uiverse.io by ElSombrero2 */ 
 .card {
     overflow: visible;
     width: 100%;
@@ -385,12 +378,6 @@ nav {
     margin: auto;
     text-align: center;
 }
-.mechanics h1 {
-    font-size: 3rem;
-    font-weight: 700;
-    padding-top: 3.5rem;
-    padding-bottom: 2rem;
-}
 
 .mechanics p {
     color: var(--secondary-color);
@@ -403,7 +390,7 @@ nav {
   width: 100%;
   overflow: hidden;
 }
-/* Slide styling */
+
 .slide {
   display: none;
   position: relative;
@@ -417,7 +404,7 @@ nav {
   height: 40rem;
   border-radius: 5px;
 }
-/* Description overlay */
+
 .description {
   position: relative;
   background: rgba(0, 0, 0, 0.5);
@@ -425,7 +412,7 @@ nav {
   padding-top: 10px;
   font-size: 2.5rem;
 }
-/* Arrow buttons styling */
+
 .arrow {
   position: absolute;
   top: 50%;
@@ -453,4 +440,58 @@ nav {
 }
 .arrow.right {
   right: 10px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Reviews ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.reviews {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.review-boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.review {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    border: white 3px solid;
+    border-radius: 5px;
+}
+
+.reviewer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 2.5rem 1rem 1rem;
+}
+
+.reviewer h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.grade .material-icons {
+    color: gold;
+}
+
+.reviewer-left {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.review img {
+    height: 70px;
+    border-radius: 50%;
+}
+
+.review p {
+    font-size: 1.2rem;
+    width: 98%;
+    padding-bottom: 0.9rem;
 }
