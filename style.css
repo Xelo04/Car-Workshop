@@ -106,22 +106,49 @@ nav {
 }
 
 /*~~~~~~~~~~ Visit Us Button ~~~~~~~~~~*/
-.header .visit-btn { 
-    position: relative;
-    text-decoration: none;
-    color: var(--white-color);
-    border: 1px solid var(--white-color);
-    padding: 12px 34px;
-    background: transparent;
-    font-size: 1.5rem;
-    border-radius: 25px;
-    background: linear-gradient(to right, #242424, #303030);
-}
 
-.header .visit-btn:hover { 
-    border: 1px solid var(--secondary-color);
-    background: var(--secondary-color);
-    transition: 1s;
+/* From Uiverse.io by satyamchaudharydev */ 
+/* === removing default button style ===*/
+.header .button {
+    margin: 0;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+  
+  /* button styling */
+.header .button {
+    --border-right: 6px;
+    --text-stroke-color: rgba(255,255,255,0.6);
+    --animation-color: var(--secondary-color);
+    --fs-size: 1.5rem;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    font-family: "Arial";
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+}
+  /* this is the text, when you hover on button */
+.header .hover-text {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--secondary-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--secondary-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--secondary-color);
+}
+  /* hover */
+.header .button:hover .hover-text {
+    width: 100%;
 }
 
 /*~~~~~~~~~~ Banner ~~~~~~~~~~*/
@@ -185,7 +212,7 @@ nav {
     width: 100%;
     height: 100%;
     transform-style: preserve-3d;
-    transition: transform 300ms;
+    transition: transform 900ms;
     box-shadow: 0px 0px 10px 1px #000000ee;
     border-radius: 5px;
 }
@@ -217,7 +244,7 @@ nav {
     width: 100%;
     height: 160%;
     background: linear-gradient(90deg, transparent, var(--secondary-color), rgba(23,172,231,1), rgba(63,179,255,1), transparent);
-    animation: rotation_481 5000ms infinite linear;
+    animation: rotation_481 9000ms infinite linear;
 }
   
 .back-content {
@@ -350,4 +377,80 @@ nav {
     100% {
       transform: translateY(0px);
     }
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Mechanics ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.mechanics{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.mechanics h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    padding-top: 3.5rem;
+    padding-bottom: 2rem;
+}
+
+.mechanics p {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+}
+
+.gallery {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+/* Slide styling */
+.slide {
+  display: none;
+  position: relative;
+}
+.slide.active {
+  display: block;
+}
+.slide img {
+  width: 100%;
+  display: block;
+  height: 40rem;
+  border-radius: 5px;
+}
+/* Description overlay */
+.description {
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  color: var(--white-color);
+  padding-top: 10px;
+  font-size: 2.5rem;
+}
+/* Arrow buttons styling */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s, transform 0.3s;
+  color: var(--white-color);
+  font-size: 24px;
+}
+.arrow:hover {
+  background: rgba(0, 0, 0, 0.8);
+  transform: translateY(-50%) scale(1.1);
+}
+.arrow.left {
+  left: 10px;
+}
+.arrow.right {
+  right: 10px;
 }

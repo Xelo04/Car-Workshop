@@ -25,17 +25,19 @@
          <div class="text-box">
             <h1>MY CAR WORKSHOP</h1>
             <p>Car repair and maintenance services</p>
-            <a href="services.html" class="visit-btn">Visit us to know more</a>
+            <button class="button" data-text="Awesome">
+                <span class="actual-text">&nbsp;VISIT US TO KNOW MORE &nbsp;</span>
+                <span aria-hidden="true" class="hover-text">&nbsp;1 WORKSHOP STREET&nbsp;</span>
+            </button>
          </div>
          <div class="banner">
-            <img src="/images/banner3.jpg" alt="">
+            <img src="/images/banner2.jpg" alt="">
          </div>
     </section>
 
     <section class="services">
         <h1>Services We Offer</h1>
         <div class="cards">
-            <!-- From Uiverse.io by ElSombrero2 --> 
             <div class="card">
                 <div class="content">
                     <div class="back">
@@ -97,6 +99,30 @@
                 </div>
             </div>
         </div>
-
     </section>
+    
+    <section class="mechanics">
+        <h1>Our Mechanics</h1>
+        <div class="gallery">
+            <div class="slide active">
+              <img src="images/mechanic1.jpg" alt="Photo 1">
+              <div class="description">Jackson Cole</div>
+              <p>Heavy-duty diesel repair specialist</p>
+            </div>
+            <div class="slide">
+              <img src="images/mechanic2.jpg" alt="Photo 2">
+              <div class="description">Marcus Steele</div>
+              <p>Master engine builder and tuner</p>
+            </div>
+            <div class="slide">
+              <img src="images/mechanic3.jpg" alt="Photo 3">
+              <div class="description">Leah Grant</div>
+              <p>High-performance suspension systems expert</p>
+            </div>
+            <button class="arrow left" id="prev">&#10094;</button>
+            <button class="arrow right" id="next">&#10095;</button>
+          </div>
+    </section>
+<script src="script.js"></script>
+</body>
 </html>
