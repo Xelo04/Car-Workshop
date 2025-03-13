@@ -9,8 +9,8 @@
     font-variation-settings:
       "wdth" 100,
       "YTLC" 500;
-    background-color: var(--black-color);
     color: var(--white-color);
+    background-color: var(--black-color);
 }
 
 h1 {
@@ -169,7 +169,7 @@ nav {
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Services ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .services{
-    width: 80%;
+    width: 60%;
     margin: auto;
     text-align: center;
 }
@@ -374,7 +374,7 @@ nav {
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Mechanics ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .mechanics{
-    width: 50%;
+    width: 40%;
     margin: auto;
     text-align: center;
 }
@@ -401,7 +401,7 @@ nav {
 .slide img {
   width: 100%;
   display: block;
-  height: 40rem;
+  height: 35rem;
   border-radius: 5px;
 }
 
