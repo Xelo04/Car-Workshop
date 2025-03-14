@@ -173,6 +173,7 @@ nav {
     background-color: var(--primary-color);
 }
 
+/*~~~~~~~~~~ Cards ~~~~~~~~~~*/
 .cards {
     display: flex;
     width: 80%;
@@ -248,6 +249,7 @@ nav {
     padding-bottom: 10px;
 }
 
+/*~~~~~~~~~~ Gallery ~~~~~~~~~~*/
 .gallery {
   position: relative;
   width: 100%;
@@ -258,9 +260,11 @@ nav {
   display: none;
   position: relative;
 }
+
 .slide.active {
   display: block;
 }
+
 .slide img {
   width: 100%;
   display: block;
@@ -294,13 +298,16 @@ nav {
   color: var(--white-color);
   font-size: 24px;
 }
+
 .arrow:hover {
   background: rgba(0, 0, 0, 0.8);
   transform: translateY(-50%) scale(1.1);
 }
+
 .arrow.left {
   left: 10px;
 }
+
 .arrow.right {
   right: 10px;
 }
@@ -317,6 +324,7 @@ nav {
     justify-content: space-evenly;
 }
 
+/*~~~~~~~~~~ Single Review ~~~~~~~~~~*/
 .review {
     width: 45%;
     display: flex;
@@ -333,19 +341,20 @@ nav {
     margin: 1rem 2.5rem 1rem 1rem;
 }
 
-.reviewer h2 {
-    font-size: 2.5rem;
-    font-weight: 700;
-}
-
 .grade .material-icons {
     color: gold;
 }
 
+/*~~~~~~~~~~ Reviewer's Image and Name ~~~~~~~~~~*/
 .reviewer-left {
     display: flex;
     align-items: center;
     gap: 1.2rem;
+}
+
+.reviewer h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
 }
 
 .review img {
@@ -353,6 +362,7 @@ nav {
     border-radius: 50%;
 }
 
+/*~~~~~~~~~~ Review's Description ~~~~~~~~~~*/
 .review p {
     font-size: 1.2rem;
     width: 98%;
