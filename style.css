@@ -16,9 +16,15 @@
 h1 {
     font-size: 3rem;
     font-weight: 700;
-    padding-top: 3.5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+section {
+    padding-top: 2rem;
     padding-bottom: 2rem;
 }
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Header ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .header{
     min-height: 100vh;
@@ -310,6 +316,166 @@ nav {
 
 .arrow.right {
   right: 10px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Contact ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.contact {
+    width: 100%;
+    background-color: var(--white-color);
+    display: flex;
+    justify-content: center;
+}
+
+.contact img {
+    width: 30%;
+    height: 100%;
+    align-self: center;
+    margin-left: 5rem;
+}
+
+/*~~~~~~~~~~ Used to make background white ~~~~~~~~~~*/
+.whiteBackground {
+    background-color: var(--white-color);
+    color: var(--black-color);
+}
+
+/*~~~~~~~~~~ Form ~~~~~~~~~~*/
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 30%;
+    background-color: var(--white-color);
+    padding: 10px 40px 20px 20px;
+    border-radius: 20px;
+    position: relative;
+    border: 1px solid var(--black-color);
+}
+
+.form h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.form p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/*~~~~~~~~~~ Firstname and Lastname ~~~~~~~~~~*/
+.flex {
+    display: flex;
+    width: 100%;
+    gap: 8%;
+    background-color: var(--white-color);
+
+}
+
+.flex label{
+    width: 46%;
+}
+
+/*~~~~~~~~~~ Label and Input Formatting ~~~~~~~~~~*/
+.form label {
+    position: relative;
+    background-color: var(--white-color);
+}
+  
+.form label .input {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid var(--black-color);
+    border-radius: 10px;
+    background-color: var(--white-color);
+    color: var(--black-color);
+}
+  
+.form label .input + span {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: var(--secondary-color);
+    background-color: var(--white-color);
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+}
+  
+.form label .input:placeholder-shown + span {
+    top: 15px;
+    font-size: 0.9em;
+}
+  
+.form label .input:focus + span,
+.form label .input + span {
+    top: -10px;
+    font-size: 0.7em;
+    font-weight: 600;
+    background-color: var(--white-color);
+    padding: 0 4px;
+}
+  
+.form label .input:valid + span {
+    color: var(--light-green);
+}
+
+/*~~~~~~~~~~ Issue Description ~~~~~~~~~~*/
+.input-box {
+    resize: vertical;
+    min-height: 1.2rem;
+    max-height: 15rem;
+}
+
+/*~~~~~~~~~~ Submit Button ~~~~~~~~~~*/
+.submit {
+    width: 10rem;
+    position: relative;
+    height: 3.5rem;
+    border: 3px ridge var(--secondary-color);
+    outline: none;
+    background-color: transparent;
+    color: var(--black-color);
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    align-self: center;
+  }
+  
+.submit::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: var(--white-color);
+    transition: 0.5s;
+    transform-origin: center;
+}
+  
+.submit::before {
+    content: "";
+    transform-origin: center;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: var(--white-color);
+    transition: 0.5s;
+}
+  
+.submit:hover::before, .submit:hover::after {
+    transform: scale(0);
+}
+  
+.submit:hover {
+    box-shadow: inset 0px 0px 25px var(--light-green);
+    border: 3px ridge var(--light-green);
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Reviews ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/

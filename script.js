@@ -31,3 +31,8 @@ document.addEventListener('keydown', (e) => {
     showSlide(currentIndex);
   }
 });
+
+// Form submission alert
+document.querySelector(".form").addEventListener("submit", (event) => {
+  alert("The problem report was sent successfully");
+});
