@@ -1,6 +1,6 @@
 // Retrieve all slide elements and initialize index
 const slides = document.querySelectorAll('.slide');
-let currentIndex = 0;
+let currentIndex = 1;
 
 // Function to show the slide at the specified index
 function showSlide(index) {
