@@ -163,6 +163,13 @@ nav {
     object-fit: cover;
 }
 
+/*~~~~~~~~~~ Visit Us Button ~~~~~~~~~~*/
+.about-header .text-about h1{
+    padding: 12rem 0 5rem 12rem;
+    text-align: start;
+    text-decoration: underline var(--secondary-color);
+}
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Services ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .services{
     background-color: var(--white-color);
