@@ -3,13 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="with=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="colors.css">
+    <link rel="stylesheet" href="../colors.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="indexStyle.css">
-    <link rel="stylesheet" href="aboutStyle.css">
+    <link rel="stylesheet" href="../indexPage/indexStyle.css">
+    <link rel="stylesheet" href="../aboutPage/aboutStyle.css">
     <title>My Car Workshop</title>
 </head>
 <body>
@@ -17,10 +17,10 @@
          <nav>
             <div class="nav-links">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="../indexPage/index.html">Home</a></li>
+                    <li><a href="../servicesPage/services.html">Services</a></li>
+                    <li><a href="../aboutPage/about.html">About</a></li>
+                    <li><a href="../contactPage/contact.html">Contact</a></li>
                 </ul>
             </div>
          </nav>
@@ -29,7 +29,7 @@
     </section>
 
     <section class="history">
-        <img src="images/mechanic2.jpg">
+        <img src="../images/mechanic2.jpg">
         <div class="history-text">
             <h2>Our History</h2>
             <p>My Car Workshop was founded in 2000 by John Doe. John has always had a passion for cars and has been working on them since he was a teenager. He decided to open his own workshop to provide quality service to the community. Since then, My Car Workshop has grown to become one of the most trusted auto repair shops in the area. We take pride in our work and strive to provide the best service possible to our customers.</p>
@@ -54,5 +54,20 @@
             <p>Repeated Customers</p>
         </div>
     </section>
+
+    <section class="about-services">
+        <div class="buttons">
+            <button onclick="changeContent(0)" class="active">Service of All Kinds</button>
+            <button onclick="changeContent(1)">Electrical Repair</button>
+            <button onclick="changeContent(2)">Bodywork and Paint</button>
+            <button onclick="changeContent(3)">Vetted Repairman</button>
+        </div>
+        <div class="service-context" id="content-box">
+            <h2>All About Us For The Repairing Of Your Car</h2>
+            <p>Do not fuse your mind by looking at the service providers separately. We are a one-stop solution for clients and businesses.</p>
+        </div>
+    </section>
+
+<script src="aboutScript.js"></script>
 </body>
 </html>
