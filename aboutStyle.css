@@ -1,0 +1,66 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Header ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.about-header .text-about h1{
+    padding: 5rem 0 5rem 12rem;
+    text-align: start;
+    text-decoration: underline var(--secondary-color);
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ History ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.history{
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    background-color: var(--white-color);
+}
+
+.history img{
+    width: 30%;
+    min-height: 17rem;
+    margin-left: 5%;
+    border: 5px solid var(--secondary-color);
+    border-radius: 10px;
+}
+
+/*~~~~~~~~~~ History Text ~~~~~~~~~~*/
+.history-text{
+    width: 50%;
+    height: 100%;
+    padding: 2rem 0 0 5rem;
+    text-align: center;
+    background-color: var(--white-color);
+}
+
+.history-text h2{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    color: var(--secondary-color);
+    background-color: var(--white-color);
+}
+
+.history-text p{
+    font-size: 1.2rem;
+    color: var(--black-color);
+    background-color: var(--white-color);
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Information ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.about-information {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.info-column {
+    width: 15%;
+    padding: 0.4rem 1rem 0.4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid var(--secondary-color);
+}
+
+.info-column h3 {
+    font-size: 1.7rem;
+    color: var(--secondary-color);
+}
