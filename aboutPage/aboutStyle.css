@@ -129,7 +129,7 @@
     background-color: var(--white-color);
     color: var(--black-color);
     text-decoration: solid var(--secondary-color) underline;
-    padding-bottom: 3rem;
+    padding: 0 2rem 3rem 2rem;
 }
 
 .service-content p {
