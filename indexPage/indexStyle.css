@@ -148,6 +148,10 @@ nav {
     width: 100%;
 }
 
+.header .text-box a{
+    background-color: var(--black-color);
+}
+
 /*~~~~~~~~~~ Banner ~~~~~~~~~~*/
 .header .banner {
     position: relative;
@@ -443,7 +447,7 @@ nav {
     font-weight: bold;
     cursor: pointer;
     align-self: center;
-  }
+}
   
 .submit::after {
     content: "";
