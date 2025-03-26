@@ -20,27 +20,23 @@ My-Car-Workshop/
 ├── indexPage/
 │   ├── index.html
 │   ├── indexStyle.css
-│   ├── indexScript.js
+│   └── indexScript.js
 │
 ├── aboutPage/
 │   ├── about.html
 │   ├── aboutStyle.css
-│   ├── aboutScript.js
+│   └── aboutScript.js
 │
 ├── servicesPage/
 │   ├── services.html
-│   ├── servicesStyle.css
+│   └── servicesStyle.css
 │
 ├── contactPage/
 │   ├── contact.html
-│   ├── contactStyle.css
+│   └── contactStyle.css
 │
 ├── images/                 # Image assets
 ├── screenshots/            # Screenshots of the project
-│   ├── home-page.png
-│   ├── about-page.png
-│   ├── services-page.png
-│   ├── contact-page.png
 │
 ├── colors.css              # Shared color variables
 ├── README.md               # Project documentation
