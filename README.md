@@ -84,19 +84,19 @@ My-Car-Workshop/
 <table>
   <tr height="250px">
     <td><img src="screenshots/HomePage1.png"></td>
-    <td><img src="screenshots/HomePage1.png"></td>
+    <td><img src="screenshots/HomePage2.png"></td>
   </tr>
-  <tr height="350px">
-    <td><img src="screenshots/HomePage1.png"></td>
-    <td><img src="screenshots/HomePage1.png"></td>
+  <tr height="250px">
+    <td><img src="screenshots/HomePage3.png"></td>
+    <td><img src="screenshots/HomePage4.png"></td>
   </tr>
-  <tr height="150px">
-    <td><img src="screenshots/HomePage1.png"></td>
-    <td><img src="screenshots/HomePage1.png"></td>
+  <tr height="250px">
+    <td><img src="screenshots/HomePage5.png"></td>
+    <td><img src="screenshots/HomePage6.png"></td>
   </tr>
-  <tr height="300px">
-    <td><img src="screenshots/HomePage1.png"></td>
-    <td><img src="screenshots/HomePage1.png"></td>
+  <tr height="250px">
+    <td><img src="screenshots/HomePage7.png"></td>
+    <td><img src="screenshots/HomePage8.png"></td>
   </tr>
 </table>
 
@@ -104,18 +104,18 @@ My-Car-Workshop/
 
 ### About Page
 <table>
-  <tr height="300px">
+  <tr height="250px">
     <td><img src="screenshots/AboutPage1.png"></td>
     <td><img src="screenshots/AboutPage2.png"></td>
   </tr>
 </table>
 
-<hr style="border-bottom: 0.3px solid #ccc; margin: 20px 0;">
+<hr style="border-bottom: 0.1px solid #ccc; margin: 20px 0;">
 
 ### Services Page
 ![Services Page](screenshots/ServicesPage.png)
 
-<hr style="border-bottom: 0.2px solid #ccc; margin: 20px 0;">
+<hr style="border-bottom: 0.1px solid #ccc; margin: 20px 0;">
 
 ### Contact Page
 ![Contact Page](screenshots/ContactPage.png)
