@@ -18,24 +18,30 @@ My Car Workshop is a personal project designed to showcase the fundamentals of *
 My-Car-Workshop/
 │
 ├── indexPage/
-│   ├── index.html          # Home page
-│   ├── indexStyle.css      # Styles for the home page
-│   ├── indexScript.js      # JavaScript for the home page
+│   ├── index.html
+│   ├── indexStyle.css
+│   ├── indexScript.js
 │
 ├── aboutPage/
-│   ├── about.html          # About page
-│   ├── aboutStyle.css      # Styles for the about page
-│   ├── aboutScript.js      # JavaScript for the about page
+│   ├── about.html
+│   ├── aboutStyle.css
+│   ├── aboutScript.js
 │
 ├── servicesPage/
-│   ├── services.html       # Services page
-│   ├── servicesStyle.css   # Styles for the services page
+│   ├── services.html
+│   ├── servicesStyle.css
 │
 ├── contactPage/
-│   ├── contact.html        # Contact page
-│   ├── contactStyle.css    # Styles for the contact page
+│   ├── contact.html
+│   ├── contactStyle.css
 │
 ├── images/                 # Image assets
+├── screenshots/            # Screenshots of the project
+│   ├── home-page.png
+│   ├── about-page.png
+│   ├── services-page.png
+│   ├── contact-page.png
+│
 ├── colors.css              # Shared color variables
 ├── README.md               # Project documentation
 └── LICENSE                 # License file
@@ -75,10 +81,38 @@ My-Car-Workshop/
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](images/mechanic1.jpg)
+<table>
+  <tr>
+    <td><img src="screenshots/HomePage1.png" alt="Home Page 1" width="45%"></td>
+    <td><img src="screenshots/HomePage2.png" alt="Home Page 1" width="45%"></td>
+  </tr>
+    <tr>
+    <td><img src="screenshots/HomePage3.png" alt="Home Page 1" width="45%"></td>
+    <td><img src="screenshots/HomePage4.png" alt="Home Page 1" width="45%"></td>
+  </tr>
+    <tr>
+    <td><img src="screenshots/HomePage5.png" alt="Home Page 1" width="45%"></td>
+    <td><img src="screenshots/HomePage6.png" alt="Home Page 1" width="45%"></td>
+  </tr>
+    <tr>
+    <td><img src="screenshots/HomePage7.png" alt="Home Page 1" width="45%"></td>
+    <td><img src="screenshots/HomePage8.png" alt="Home Page 1" width="45%"></td>
+  </tr>
+</table>
 
 ### About Page
-![About Page](images/contact.jpg)
+<table>
+  <tr>
+    <td><img src="screenshots/HomePage1.png" alt="Home Page 1" width="45%"></td>
+    <td><img src="screenshots/HomePage2.png" alt="Home Page 1" width="45%"></td>
+  </tr>
+</table>
+
+### Services Page
+![Services Page](screenshots/ServicesPage.png)
+
+### Contact Page
+![Contact Page](screenshots/ContactPage.png)
 
 ---
 
