@@ -95,8 +95,8 @@ My-Car-Workshop/
     <td><img src="screenshots/HomePage6.png"></td>
   </tr>
   <tr height="350px">
-    <td><img src="screenshots/HomePage7.png" width=100% height=100%></td>
-    <td><img src="screenshots/HomePage8.png"></td>
+    <td><img src="screenshots/HomePage7.png" width="100%" height="100%"></td>
+    <td><img src="screenshots/HomePage8.png" width="100%" height="100%"></td>
   </tr>
 </table>
 
