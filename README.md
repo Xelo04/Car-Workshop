@@ -82,36 +82,40 @@ My-Car-Workshop/
 
 ### Home Page
 <table>
+  <tr height="250px">
+    <td><img src="screenshots/HomePage1.png"></td>
+    <td><img src="screenshots/HomePage1.png"></td>
+  </tr>
+  <tr height="350px">
+    <td><img src="screenshots/HomePage1.png"></td>
+    <td><img src="screenshots/HomePage1.png"></td>
+  </tr>
   <tr height="150px">
-    <td><img src="screenshots/HomePage1.png" alt="Home Page 1"></td>
-    <td><img src="screenshots/HomePage2.png" alt="Home Page 1"></td>
+    <td><img src="screenshots/HomePage1.png"></td>
+    <td><img src="screenshots/HomePage1.png"></td>
   </tr>
-    <tr>
-    <td><img src="screenshots/HomePage3.png" alt="Home Page 1" width="45%"></td>
-    <td><img src="screenshots/HomePage4.png" alt="Home Page 1" width="45%"></td>
-  </tr>
-    <tr>
-    <td><img src="screenshots/HomePage5.png" alt="Home Page 1" width="45%"></td>
-    <td><img src="screenshots/HomePage6.png" alt="Home Page 1" width="45%"></td>
-  </tr>
-    <tr>
-    <td><img src="screenshots/HomePage7.png" alt="Home Page 1" width="45%"></td>
-    <td><img src="screenshots/HomePage8.png" alt="Home Page 1" width="45%"></td>
+  <tr height="300px">
+    <td><img src="screenshots/HomePage1.png"></td>
+    <td><img src="screenshots/HomePage1.png"></td>
   </tr>
 </table>
 
-<hr style="border-bottom: 0.5px solid #ccc; margin: 20px 0;">
+<hr style="border-bottom: 0.1px solid #ccc; margin: 20px 0;">
 
 ### About Page
 <table>
-  <tr>
-    <td><img src="screenshots/HomePage1.png" alt="Home Page 1" width="45%"></td>
-    <td><img src="screenshots/HomePage2.png" alt="Home Page 1" width="45%"></td>
+  <tr height="300px">
+    <td><img src="screenshots/AboutPage1.png"></td>
+    <td><img src="screenshots/AboutPage2.png"></td>
   </tr>
 </table>
 
+<hr style="border-bottom: 0.3px solid #ccc; margin: 20px 0;">
+
 ### Services Page
 ![Services Page](screenshots/ServicesPage.png)
+
+<hr style="border-bottom: 0.2px solid #ccc; margin: 20px 0;">
 
 ### Contact Page
 ![Contact Page](screenshots/ContactPage.png)
