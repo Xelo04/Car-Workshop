@@ -82,9 +82,9 @@ My-Car-Workshop/
 
 ### Home Page
 <table>
-  <tr>
-    <td><img src="screenshots/HomePage1.png" alt="Home Page 1" width="45%"></td>
-    <td><img src="screenshots/HomePage2.png" alt="Home Page 1" width="45%"></td>
+  <tr height="150px">
+    <td><img src="screenshots/HomePage1.png" alt="Home Page 1"></td>
+    <td><img src="screenshots/HomePage2.png" alt="Home Page 1"></td>
   </tr>
     <tr>
     <td><img src="screenshots/HomePage3.png" alt="Home Page 1" width="45%"></td>
