@@ -100,7 +100,7 @@ My-Car-Workshop/
   </tr>
 </table>
 
---
+<hr style="border-bottom: 0.5px solid #ccc; margin: 20px 0;">
 
 ### About Page
 <table>
