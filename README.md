@@ -122,7 +122,7 @@ My-Car-Workshop/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/My-Car-Workshop.git
+   git clone https://github.com/Xelo04/Car-Workshop
 2. Open the index.html file in your browser to view the website.
 
 ---
