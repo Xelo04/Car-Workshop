@@ -14,7 +14,7 @@ My Car Workshop is a personal project designed to showcase the fundamentals of *
 - [⚙️ Installation and Usage](#️-installation-and-usage)
 - [🤝 Contributing](#-contributing)
 - [📜 License](#-license)
-- 
+
 ---
 
 ## 🚀 Features
