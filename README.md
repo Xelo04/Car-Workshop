@@ -4,6 +4,19 @@ My Car Workshop is a personal project designed to showcase the fundamentals of *
 
 ---
 
+## 📖 Table of Contents
+
+- [🚀 Features](#-features)
+- [📂 Project Structure](#-project-structure)
+- [🛠️ Technologies Used](#️-technologies-used)
+- [🌟 Key Functionalities](#-key-functionalities)
+- [📸 Screenshots](#-screenshots)
+- [⚙️ Installation and Usage](#️-installation-and-usage)
+- [🤝 Contributing](#-contributing)
+- [📜 License](#-license)
+- 
+---
+
 ## 🚀 Features
 
 - **Dynamic Content**: JavaScript-powered content updates for seamless user interaction.
